@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main() {
-    int t,soma,n;
-    cin >> t;
-    while(t--){
-        cin >>n;
-        soma += n;
+int main(){
+    long long n,x,soma=0;
+    cin >> n;
+    while(n--){
+        cin >> x;
+        soma += x;
     }
     cout << soma << "\n";
-    return 0;
 }
